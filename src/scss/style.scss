@@ -1,0 +1,100 @@
+$bg-color:#1d1e22;
+$font-color:#fff;
+$form-color:#d4d4dc;
+$explore-color:#feda6a;
+$create-color:#1d1e22;
+$share-color:#feda6a;
+$button-color:#d4d4dc;
+$dark-overlay: rgba(0,0,0,0.7);
+$icon-size: 20px;
+
+body{
+
+  background: $bg-color;
+  color:$font-color;
+}
+
+.navbar{
+  background-color: $create-color;
+  border-bottom: $explore-color 3px solid;
+  opacity: 0.9;
+  .navbar-brand{
+    color: $explore-color;
+  }
+}
+
+#home-section{
+  background:url('../img/home4.jpg') no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:700px;
+
+  .dark-overlay{
+    background-color: $dark-overlay;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+  }
+
+  .home-inner{
+    padding-top: 150px;
+  }
+
+  .card{
+    background-color: $form-color;
+  }
+
+
+  .card-form{
+    opacity: 0.9;
+    background-color: $form-color;
+  }
+
+  .fa{
+    color:$bg-color;
+    background: #fff;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+#explore-head-section{
+  background-color: $explore-color;
+}
+
+#explore-section{
+
+  .fa{
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#create-head-section{
+  background-color: $create-color;
+  border-top: $explore-color 3px solid;
+  //border-bottom: $explore-color 3px solid;
+}
+
+#share-head-section{
+  background-color: $share-color;
+  border-top: $bg-color 1px solid;
+  //border-bottom: $create-color 1px solid;
+}
+
+#main-footer{
+
+  border-top: $share-color 2px solid;
+
+  .btn-light{
+    background-color: $button-color;
+  }
+}
+
+#contactModal{
+  .btn-dark{
+    background-color: $button-color;
+  }
+}

@@ -1,0 +1,59 @@
+body {
+  background: #1d1e22;
+  color: #fff; }
+
+.navbar {
+  background-color: #1d1e22;
+  border-bottom: #feda6a 3px solid;
+  opacity: 0.9; }
+  .navbar .navbar-brand {
+    color: #feda6a; }
+
+#home-section {
+  background: url("../img/home4.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card {
+    background-color: #d4d4dc; }
+  #home-section .card-form {
+    opacity: 0.9;
+    background-color: #d4d4dc; }
+  #home-section .fa {
+    color: #1d1e22;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 20px; }
+
+#explore-head-section {
+  background-color: #feda6a; }
+
+#explore-section .fa {
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 20px; }
+
+#create-head-section {
+  background-color: #1d1e22;
+  border-top: #feda6a 3px solid; }
+
+#share-head-section {
+  background-color: #feda6a;
+  border-top: #1d1e22 1px solid; }
+
+#main-footer {
+  border-top: #feda6a 2px solid; }
+  #main-footer .btn-light {
+    background-color: #d4d4dc; }
+
+#contactModal .btn-dark {
+  background-color: #d4d4dc; }
